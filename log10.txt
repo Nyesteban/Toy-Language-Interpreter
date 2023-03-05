@@ -1,0 +1,470 @@
+Id: 9
+ExeStack:
+(int  v;(Ref(int ) a;(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(Ref(int ) a;(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))))
+int  v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(Ref(int ) a;(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))))
+int  v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(Ref(int ) a;(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))))
+SymTable:
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(Ref(int ) a;(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))))
+SymTable:
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))))
+Ref(int ) a
+SymTable:
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))))
+Ref(int ) a
+SymTable:
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))))
+SymTable:
+a-->(0,int )
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(v=10;(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))))
+SymTable:
+a-->(0,int )
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))
+v=10
+SymTable:
+a-->(0,int )
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))
+v=10
+SymTable:
+a-->(0,int )
+v-->0
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))
+SymTable:
+a-->(0,int )
+v-->10
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(HeapAllocStmt(22, a);(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a)))))
+SymTable:
+a-->(0,int )
+v-->10
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))
+HeapAllocStmt(22, a)
+SymTable:
+a-->(0,int )
+v-->10
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))
+HeapAllocStmt(22, a)
+SymTable:
+a-->(0,int )
+v-->10
+Out:
+FileTable:
+Heap:
+
+Id: 9
+ExeStack:
+(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+(fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))));(print(v);print(HeapReadExp(a))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+fork((HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a))))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 10
+ExeStack:
+(HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a)))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 10
+ExeStack:
+(HeapWriteStmt(30, a);(v=32;(print(v);print(HeapReadExp(a)))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+print(HeapReadExp(a))
+print(v)
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 10
+ExeStack:
+(v=32;(print(v);print(HeapReadExp(a))))
+HeapWriteStmt(30, a)
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+print(HeapReadExp(a))
+print(v)
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 10
+ExeStack:
+(v=32;(print(v);print(HeapReadExp(a))))
+HeapWriteStmt(30, a)
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+FileTable:
+Heap:
+1-->22
+
+Id: 9
+ExeStack:
+print(HeapReadExp(a))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(v=32;(print(v);print(HeapReadExp(a))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+FileTable:
+Heap:
+1-->30
+
+Id: 9
+ExeStack:
+print(HeapReadExp(a))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(v=32;(print(v);print(HeapReadExp(a))))
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+FileTable:
+Heap:
+1-->30
+
+Id: 9
+ExeStack:
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+v=32
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+v=32
+SymTable:
+a-->(1,int )
+v-->10
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+(print(v);print(HeapReadExp(a)))
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+print(HeapReadExp(a))
+print(v)
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+print(HeapReadExp(a))
+print(v)
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+print(HeapReadExp(a))
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+32
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+print(HeapReadExp(a))
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+32
+FileTable:
+Heap:
+1-->30
+
+Id: 10
+ExeStack:
+SymTable:
+a-->(1,int )
+v-->32
+Out:
+10
+30
+32
+30
+FileTable:
+Heap:
+1-->30
+

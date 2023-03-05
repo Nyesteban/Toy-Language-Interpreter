@@ -1,0 +1,231 @@
+ExeStack:
+(Ref(int ) v;(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))))
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))))
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+(print(HeapReadExp(v));print(HeapReadExp(HeapReadExp(a))+5))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(HeapReadExp(HeapReadExp(a))+5)
+print(HeapReadExp(v))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(HeapReadExp(HeapReadExp(a))+5)
+print(HeapReadExp(v))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(HeapReadExp(HeapReadExp(a))+5)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+20
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(HeapReadExp(HeapReadExp(a))+5)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+20
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+20
+25
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+20
+25
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+

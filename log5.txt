@@ -1,0 +1,462 @@
+ExeStack:
+(Ref(int ) v;(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+SymTable:
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+SymTable:
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(print(v);print(a))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(print(v);print(a))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+1-->20
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(print(v);print(a))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(print(v);print(a))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+print(a)
+print(v)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+print(a)
+print(v)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+print(a)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+(1,int )
+FileTable:
+Heap:
+
+ExeStack:
+print(a)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+(1,int )
+FileTable:
+Heap:
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+(1,int )
+(2,Ref(int ))
+FileTable:
+Heap:
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+1-->20
+2-->(1,int )
+Out:
+(1,int )
+(2,Ref(int ))
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(int ) v;(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+Ref(int ) v
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(HeapAllocStmt(20, v);(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a)))))
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+HeapAllocStmt(20, v)
+SymTable:
+v-->(0,int )
+Out:
+FileTable:
+Heap:
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(Ref(Ref(int )) a;(HeapAllocStmt(v, a);(print(v);print(a))))
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+Ref(Ref(int )) a
+SymTable:
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(HeapAllocStmt(v, a);(print(v);print(a)))
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(v);print(a))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(v);print(a))
+HeapAllocStmt(v, a)
+SymTable:
+a-->(0,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+
+ExeStack:
+(print(v);print(a))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+(print(v);print(a))
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(a)
+print(v)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(a)
+print(v)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(a)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+(1,int )
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+print(a)
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+(1,int )
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+(1,int )
+(2,Ref(int ))
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
+ExeStack:
+SymTable:
+a-->(2,Ref(int ))
+v-->(1,int )
+Out:
+(1,int )
+(2,Ref(int ))
+FileTable:
+Heap:
+1-->20
+2-->(1,int )
+
